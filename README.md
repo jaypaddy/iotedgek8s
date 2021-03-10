@@ -6,8 +6,8 @@
 5. Install IoTEdge on Kubernetes 
 
 helm install --repo https://edgek8s.blob.core.windows.net/staging pv-iotedged-example edge-kubernetes \ <br>
-  --namespace pv-iotedged \
-  --set "iotedged.data.persistentVolumeClaim.name=iotedged-data-azurefile" \
-  --set "provisioning.deviceConnectionString=$connstr"
+  --namespace pv-iotedged \ <br>
+  --set "iotedged.data.persistentVolumeClaim.name=iotedged-data-azurefile" \ <br>
+  --set "provisioning.deviceConnectionString=$connstr" 
 
 
