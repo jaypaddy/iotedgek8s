@@ -66,7 +66,7 @@ helm install --repo https://edgek8s.blob.core.windows.net/staging pv-iotedged-ex
           }`
  
  ##### IoT Edge Manifest updates for edgeHub
- `          `"edgeHub": {
+          `"edgeHub": {
             "type": "docker",
             "status": "running",
             "restartPolicy": "always",
