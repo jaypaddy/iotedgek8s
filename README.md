@@ -1,4 +1,4 @@
-
+0. Install IoTEdge Custom Resource Definition (CRD): `helm install --repo https://edgek8s.blob.core.windows.net/staging edge-crd edge-kubernetes-crd`  
 1. Create Kubernetes Namespace : `kubectl apply -f https://raw.githubusercontent.com/jaypaddy/iotedgek8s/main/ns.yaml`
 2. Create Persistent Volume : `kubectl apply -f https://raw.githubusercontent.com/jaypaddy/iotedgek8s/main/pvciotedged.yaml`
 3. Create IoTEdge in IoTHub and copy Connection String
