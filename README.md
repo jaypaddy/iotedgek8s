@@ -12,7 +12,7 @@ helm install --repo https://edgek8s.blob.core.windows.net/staging pv-iotedged-ex
   
   
 
-##Resiliency for EdgeAgent and EdgeHub
+#### Resiliency for EdgeAgent and EdgeHub
 1. Create Persistent Volume Claim edgeAgent: `kubectl apply -f https://raw.githubusercontent.com/jaypaddy/iotedgek8s/main/pvcedgeagent.yaml`
 2. Create Persistent Volume Claim edgeHub: `kubectl apply -f https://raw.githubusercontent.com/jaypaddy/iotedgek8s/main/pvcedgehub.yaml`
 
